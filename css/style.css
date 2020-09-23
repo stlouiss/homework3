@@ -87,9 +87,9 @@ table{
 
 
 .rowhead{
+  margin: auto;
   vertical-align: auto;
   text-align: center;
-  margin: auto;
   padding: 10px;
   border-right: 2px solid #000000;
   border-top: 2px solid #000000;
@@ -106,9 +106,10 @@ thead{
 
 
 td{
+  margin: auto;
   vertical-align: auto;
   text-align: center;
-  border-top: 2px;
+  border-top: 2px solid #000000;
   padding: 10px 10px 10px 10px;  
 }
 
@@ -119,7 +120,7 @@ tr:nth-child(even){
 
 
 tr:hover{
-  background-color: rgb(126,8,48, 0.25)
+  background-color: rgb(126,8,32, 0.25)
 }
 
 
