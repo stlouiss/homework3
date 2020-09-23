@@ -16,7 +16,7 @@ body{
   background-size: cover ;
   background-image: url("../images/pigeon-background.JPEG");
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-color: #DDDDDD;
 }
 
@@ -104,11 +104,6 @@ thead{
   border-radius: 10px;
 }
 
-tr{text-align: center;
-  border-top: 2px;
-  padding: 10px;
-}
-
 
 td{
   vertical-align: auto;
@@ -142,9 +137,6 @@ tr:last-child th.rowhead{border-bottom-left-radius: 10px;}
   border-width: 3px; 
   border-style: dashed;
   border-color: #417243}
-
-
-thead tr:first-child th:first-child{border-top-left-radius: 10px;}
 
 
 footer{
