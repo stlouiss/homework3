@@ -63,8 +63,8 @@ table{
 .colhead{
   background-color: #7e0820;
   color: #FFFFFF;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  vertical-align: auto;
   text-align: center;
   text-transform: uppercase;
   min-width: 125px;
@@ -83,8 +83,7 @@ table{
 
 
 .rowhead{
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   text-align: center;
   padding: 10px;
   border-right: 2px solid #000000;
@@ -92,13 +91,17 @@ table{
 }
 
 
+thead{
+  border-radius: 10px;
+}
+
 tr:nth-child(even){
   background-color:#D1D1D1;
 }
 
 
 tr:hover{
-  background-color: rgb(126,8,32, 0.25)
+  background-color: rgb(126,8,32, 0.25);
 }
 
 
@@ -108,8 +111,8 @@ tbody tr:first-child td{border-top:0px;}
 
 
 td{
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  vertical-align: auto;
   text-align: center;
   border-top: 2px solid #000000;
   padding: 10px 10px 10px 10px;  
@@ -125,7 +128,7 @@ tr:last-child th.rowhead{border-bottom: 0px;
 *:focus{
   border-width: 3px; 
   border-style: dashed;
-  border-color: #417243}
+  border-color: #417243;}
 
 thead tr:first-child th:first-child{
   border-bottom: 2px solid #000000;}
