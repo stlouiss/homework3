@@ -66,9 +66,7 @@ table{
 .colhead{
   background-color: #7e0820;
   color: #FFFFFF;
-  margin-left: auto;
-  margin-right: auto;
-  vertical-align: auto;
+  vertical-align: middle;
   text-align: center;
   text-transform: uppercase;
   min-width: 125px;
@@ -97,10 +95,15 @@ table{
 
 
 thead{
-  margin: auto;
-  vertical-align: auto;
   text-align: center;
+  vertical-align: middle;
   border-radius: 10px;
+}
+
+
+thead tr th.colhead{
+  text-align: center;
+  vertical-align: middle;
 }
 
 
