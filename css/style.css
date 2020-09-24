@@ -52,7 +52,10 @@ a{
 
 
 table{
-    border: 2px solid #000000;
+    border-top: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-bottom: 2px solid #000000;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -63,7 +66,8 @@ table{
 .colhead{
   background-color: #7e0820;
   color: #FFFFFF;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   vertical-align: auto;
   text-align: center;
   text-transform: uppercase;
@@ -84,6 +88,7 @@ table{
 
 .rowhead{
   margin: auto;
+  vertical-align: auto;
   text-align: center;
   padding: 10px;
   border-right: 2px solid #000000;
@@ -95,20 +100,6 @@ thead{
   border-radius: 10px;
 }
 
-tr:nth-child(even){
-  background-color:#D1D1D1;
-}
-
-
-tr:hover{
-  background-color: rgb(126,8,32, 0.25);
-}
-
-
-tbody tr:first-child th.rowhead{border-top: 0px;}
-
-tbody tr:first-child td{border-top:0px;}
-
 
 td{
   margin: auto;
@@ -119,22 +110,30 @@ td{
 }
 
 
+tr:nth-child(even){
+  background-color:#D1D1D1;
+}
+
+
+tr:hover{
+  background-color: rgb(126,8,32, 0.25)
+}
+
+
+tr:last-child th.rowhead{
+  border-bottom: 0px;
+  border-bottom-left-radius: 10 px;}
+
+
 tr:last-child td:last-child{border-bottom-right-radius: 10px;}
 
-tr:last-child th.rowhead{border-bottom: 0px; 
-  border-bottom-left-radius: 10px;}
+tr:last-child th.rowhead{border-bottom-left-radius: 10px;}
 
 
 *:focus{
   border-width: 3px; 
   border-style: dashed;
-  border-color: #417243;}
-
-thead tr:first-child th:first-child{
-  border-bottom: 2px solid #000000;}
-
-thead tr:first-child th{
-    border-bottom: 2px solid #000000;}
+  border-color: #417243}
 
 
 footer{
@@ -147,4 +146,3 @@ footer{
   text-align: center;
   color: #FFFFFF;
 }
-
